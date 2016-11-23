@@ -8,5 +8,5 @@ echo"mal";
 
 }
 echo "bien";
-		?>
+		
 ?>
