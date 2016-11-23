@@ -2,7 +2,7 @@
 
 
  <?php
-$conn = sqlsrv_connect('mysql.hostinger.es','u183418944_celu','123456789','u183418944_cel');
+$conn = sqlsrv_connect('ftp.gear.host','celularalmacen \ $ celularalmacen','4iSP0Eskcp18QdrdgM3fxXirCbqSkXv4ujTWYn96z1HYcjpeHrRmN5RooDwe','celularalmacen \ $ celularalmacen');
 if(!conn){
 echo"mal";
 
