@@ -3,7 +3,7 @@ include '../conexion/conexion.php';
 
 $id=$_POST['id'];
 
-$query = "select * from cliente where idcliente=$id";
+$query = "select * from CLIENTE where idcliente=$id";
 
 $exec = sqlsrv_query($conn,$query);
 
