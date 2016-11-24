@@ -1,13 +1,15 @@
 <?php
 include '../conexion/conexion.php';
 
-$id=$_POST['id'];
-$nombre=$_POST['nombre'];
-$apellido=$_POST['apellido'];
-$dni=$_POST['dni'];
-$direccion=$_POST['direccion'];
 
-$query = "update cliente set  Nombre='".$nombre."', Apellido='".$apellido."', DNI='".$dni."', Direccion='".$direccion."' where IdCliente=$id";
+$id=$_POST['id'];
+$Nombre=$_POST['Nombre'];
+$Apellido=$_POST['Apellido'];
+$DNI=$_POST['DNI'];
+$Direccion=$_POST['Direccion'];
+
+$query = "update CLIENTE set  Nombre='".$Nombre."', Apellido='".$Apellido."', DNI='".$DNI."', Direccion='".$Direccion."' where IdCliente=$id";
+
 
 
 
