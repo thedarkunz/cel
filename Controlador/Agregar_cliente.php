@@ -2,12 +2,12 @@
 include '../conexion/conexion.php';
 
 
-$nombre=$_POST['nombre'];
-$apellido=$_POST['apellido'];
-$dni=$_POST['dni'];
-$direccion=$_POST['direccion'];
+$Nombre=$_POST['Nombre'];
+$Apellido=$_POST['Apellido'];
+$DNI=$_POST['DNI'];
+$Direccion=$_POST['Direccion'];
 
-$query = "insert into cliente values('".$nombre."','".$apellido."','".$dni."','".$direccion."',1)";
+$query = "insert into CLIENTE values('".$Nombre."','".$Apellido."','".$DNI."','".$Direccion."',1)";
 
 sqlsrv_query($conn,$query);
 
