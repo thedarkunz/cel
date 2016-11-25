@@ -2,10 +2,10 @@
 include '../conexion/conexion.php';
 
 
-$Nombre=$_POST['Nombre'];
-$Apellido=$_POST['Apellido'];
-$DNI=$_POST['DNI'];
-$Direccion=$_POST['Direccion'];
+$Nombre=$_POST['nombre'];
+$Apellido=$_POST['apellido'];
+$DNI=$_POST['dni'];
+$Direccion=$_POST['direccion'];
 
 $query = "insert into CLIENTE values('".$Nombre."','".$Apellido."','".$DNI."','".$Direccion."',1)";
 
