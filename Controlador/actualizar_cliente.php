@@ -3,12 +3,12 @@ include '../conexion/conexion.php';
 
 
 $id=$_POST['id'];
-$Nombre=$_POST['Nombre'];
-$Apellido=$_POST['Apellido'];
-$DNI=$_POST['DNI'];
-$Direccion=$_POST['Direccion'];
+$Nombre=$_POST['nombre'];
+$Apellido=$_POST['apellido'];
+$DNI=$_POST['dni'];
+$Direccion=$_POST['direccion'];
 
-$query = "update CLIENTE set  Nombre='".$Nombre."', Apellido='".$Apellido."', DNI='".$DNI."', Direccion='".$Direccion."' where IdCliente=$id";
+$query = "update CLIENTE set  nombre='".$Nombre."', apellido='".$Apellido."', dni='".$DNI."', direccion='".$Direccion."' where IdCliente=$id";
 
 
 
