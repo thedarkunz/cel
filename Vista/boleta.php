@@ -2,8 +2,76 @@
 include '../controlador/boleta.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html><html>
+
 <head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body topmargin="0" leftmargin="0" bgcolor="#6D93D2">
+
+<table border="0" width="780" height="585" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="103"><img src="1.jpg" width="780" height="103"></td>
+  </tr>
+  <tr>
+    <td width="100%" height="482" valign="top"><table border="0" width="100%" height="482"
+    cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="14"></td>
+        <td width="155" valign="top"><table border="0" width="100%" cellspacing="0"
+        cellpadding="0">
+          <tr>
+            <td width="100%"><img src="2.jpg" width="155" height="24"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="3.jpg" width="155" height="28"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="4.jpg" width="155" height="14"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="5.jpg" width="155" height="28"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="6.jpg" width="155" height="14"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="7.jpg" width="155" height="28"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="8.jpg" width="155" height="15"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="9.jpg" width="155" height="28"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="10.jpg" width="155" height="20"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="11.jpg" width="155" height="28"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="12.jpg" width="155" height="255"></td>
+          </tr>
+        </table>
+        </td>
+        <td width="611" background="13.jpg"></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<table border="0" width="780">
+  <tr>
+    <td width="100%">
+      
+  </tr>
+</table>
+</body>
+</html>
+	<head>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="js/JQuery.js"></script>
 </head>
