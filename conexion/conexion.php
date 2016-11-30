@@ -8,7 +8,7 @@ $connectionInfo = array( "Database"=>"bdcelulare","UID"=>"bdcelulare","PWD"=>"Fo
 //$conn = sqlsrv_connect( $serverName, $connectionInfo); //Se estable la conexion
 
 /* NUEVA CONEXION*/
-$conn = new PDO('sqlsrv:server=mssql4.gear.host;Database=bdcelulare','bdcelularel','Fo0S8V99-A7~');
+$conn = new PDO('sqlsrv:server=mssql4.gear.host;Database=bdcelulare','bdcelulare','Fo0S8V99-A7~');
 //$conn = new PDO("odbc:Driver={SQL Native Client};Server=mssql4.gear.host;Database=bdcelulares; Uid=bdcelulares;Pwd=@123456789;");
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
