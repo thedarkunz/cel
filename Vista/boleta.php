@@ -3,7 +3,7 @@ include '../controlador/boleta.php';
 ?>
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="js/JQuery.js"></script>
 </head>
